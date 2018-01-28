@@ -1,0 +1,1 @@
+../../../Projects/question_answering/tasks/make_tasks.sh
