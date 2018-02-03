@@ -1,7 +1,7 @@
 #!/bin/bash
 
 for j in `seq 1 2` ; do  
-    for i in `seq -f %02g 1 20` ; do
+    for i in `seq -f %02g $1 $2` ; do
         if [ "$j" -lt "2" ]; then
             append=train
         else
